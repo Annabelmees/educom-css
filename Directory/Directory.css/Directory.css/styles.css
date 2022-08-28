@@ -52,6 +52,11 @@
     color: navy;
 }
 
+a {
+    font-size: 22px;
+    color: #F0F;
+} 
+
 .cascading-parent h2 {
     color: #FD0;
 }
@@ -59,11 +64,6 @@
 .cascading-parent a {
     font-size: 32px;
     color: #000000;
-}
-
-a {
-    font-size: 30px;
-    color: brown
 }
 
 .cascading-parent h3 {
@@ -97,6 +97,18 @@ a {
     color: darkgreen
 }
 
-.link-color {
-    background-color: silver;
-    color: #FFF;
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+  }
