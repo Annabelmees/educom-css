@@ -7,9 +7,66 @@
     --lighter-red: #dc3439;
     --white: #FFF;
     --black: #000;
-    --margin: 10px;
-    --padding: 40px;
+    --margin: 200px;
+    --padding: 50px;
     --font-weight: bold;
+}
+
+a-2 {
+    font: var(--bold);
+    font-family: var(--regular);
+    color: var(--dark-brown);
+    background-color: var(--lighter-red);
+    margin: var(--margin);
+    padding: var(--padding);
+}
+
+.second-button a-2 {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.second-button a-2:visited {
+    background-color: #774231;
+    text-decoration: none;
+  }
+
+.second-button a-2:hover {
+    background-color: #b31714;
+    text-decoration: none;
+  }
+
+.third-button a-3 {
+    width: 200px;
+    padding: 10px;
+    color: greenyellow;
+    background-color: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(12,94,12,1) 31%, rgba(0,212,255,1) 100%);
+    border-radius: 50px;
+    margin: 400px;
+    padding: 50px;
+    font: Arial;
+    font-weight:bold;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    text-decoration: none;
+    transition: all 1.0s ease;
+}
+
+.third-button a-3:active {
+    background-color: lightgreen;
+    text-decoration: none;
+}
+
+.third-button a-3:hover {
+    background-color: darkgreen;
+    text-decoration: none;
+
 }
 
 h1 {
@@ -138,3 +195,23 @@ a:link {
   a:active {
     color: blue;
   }
+
+  .button-container a {
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+
+  .button-container a:hover {
+    background-color: #AF1F16;
+    text-decoration: none;
+  }
+
+ 
